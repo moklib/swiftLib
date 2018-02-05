@@ -7,11 +7,12 @@ For iOS developers, we have a Swift Library to control robot (through Bluetooth)
 
 # Download and for test
 
-[https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo ](https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo)
+Video:https://github.com/moklib/swiftLib/tree/master/doc/demo.mp4
+
+[Code:https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo ](https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo)
 
 ![demo images](https://github.com/moklib/swiftLib/blob/master/doc/demo.JPG)
 
-Video:https://github.com/moklib/swiftLib/tree/master/doc/demo.mp4
 
 # Download and Import
 
@@ -26,7 +27,7 @@ add the RbLib folder to yours project
 
 
 ## 2. Filter robot by name
-
+'''
 func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         if( peripheral.name != nil && (peripheral.name?.hasPrefix(GsConfig.bleUUID.preName.rawValue))! ){
             if( self.connNum == 1){
@@ -35,9 +36,9 @@ func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPerip
             }
         }
     }
-
+'''
 ## 3. Registration service
-
+'''
 func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: Error?) {
         for characteristic in service.characteristics! {
             switch characteristic.uuid.description {
@@ -55,6 +56,7 @@ func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor servic
         }
     }
 
+'''
 ## 4. After the robot is connected, you need to get the handle of a robot using the connection you made (this can be done before the actual connection happens):
 
 let robot = GsRobotManager.getCurrentRobot()
