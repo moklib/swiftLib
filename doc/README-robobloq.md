@@ -9,7 +9,7 @@ For iOS developers, we have a Swift Library to control robot (through Bluetooth)
 
 Video:https://github.com/moklib/swiftLib/tree/master/doc/demo.mp4
 
-Code:[https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo ](https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo)
+Code:[https://github.com/moklib/swiftLib/tree/master/RobobloqSwiftDemo ](https://github.com/moklib/swiftLib/tree/master/RobobloqSwiftDemo)
 
 ![demo images](https://github.com/moklib/swiftLib/blob/master/doc/demo.JPG)
 
