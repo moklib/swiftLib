@@ -2,16 +2,16 @@
 
 For iOS developers, we have a Swift Library to control robot (through Bluetooth) with iOS devices.
 
-[github.com/moklib/swiftLib/doc/README-robobloq.md link](https://github.com/moklib/swiftLib/doc/README-robobloq.md)
+[github.com/moklib/swiftLib/doc/README-robobloq.md ](https://github.com/moklib/swiftLib/doc/README-robobloq.md)
 
 
 # Download and for test
 
-[https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo link](https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo)
+[https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo ](https://github.com/moklib/swiftLib/RbLib/RobobloqSwiftDemo)
 
 # Download and Import
 
-[github.com/moklib/swiftLib/RbLib link](https://github.com/moklib/swiftLib/RbLib)
+[github.com/moklib/swiftLib/RbLib ](https://github.com/moklib/swiftLib/RbLib)
 
 add the RbLib folder to yours project
 
@@ -72,6 +72,6 @@ set the color of robot’s on-board LEDs.
 
 tell the robot to move forward in a certain speed (-90 to 90)
 
-[(More available at the API Documentation) link](https://www.robobloq.com)
+[(More available at the API Documentation) ](https://www.robobloq.com)
 
 
